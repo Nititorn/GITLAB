@@ -15,11 +15,7 @@ void main()
     won = 0; 
     for (i=0;i<N && !won; i++) 
     {
-       if (YourLotteryNo == WinLotteryNo[i]) 
-       {
-          printf("Congratulations You Won %8.2f baht\n", WinAmount[i]); 
-          won = 1;
-       }
+      printf("Welcome to island\n");
     }
     if (!won) 
       printf("Sorry Lottery Number %4d did not win\n", YourLotteryNo); 
