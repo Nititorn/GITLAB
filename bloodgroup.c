@@ -16,12 +16,14 @@ void main()
                             strcmp(G, "O") !=0 );
     if (strcmp(G,"A") ==0)
     {
+		printf("HELLO you are A type\n");
       printf("Hello, ladys and gentlemen, welcome to island\n");
     }
     else if (strcmp(G, "B") ==0)
     {
     	printf("If you can see this statement, you can say that you're a bastard\n");
-    }
+      	printf("%s, B. Well, you can give blood to who you want to give\n", Name);
+	}
     else if (strcmp(G, "AB") == 0)
     {
       printf("%s, AB. Oh my God, you can give blood only to: AB.\n", Name);
